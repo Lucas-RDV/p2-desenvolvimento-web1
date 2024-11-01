@@ -1,0 +1,12 @@
+{
+    "name": "lucas/p2-desenvolvimento-web1",
+    "description": "marketplace_carros_usados",
+    "require": {
+        "phpunit/phpunit": "^11.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lucas\\P2DesenvolvimentoWeb1\\": "src/"
+        }
+    }
+}
