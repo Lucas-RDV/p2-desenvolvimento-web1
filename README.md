@@ -28,7 +28,7 @@ Este marketplace é direcionado a:
 
 - **PHP** (versão 7.4 ou superior)
 - **Composer** - para gerenciar as dependências
-- **Banco de Dados** - a definir
+- **Banco de Dados** - MYsql
 <br/>
 <br/>
 <br/>
