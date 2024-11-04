@@ -1,32 +1,24 @@
 <?php
-require_once 'Router.php';
-require_once '../app/controllers/UsuarioController.php';
-require_once '../app/controllers/VeiculoController.php';
+require_once '../Router.php';
+require_once '../controllers/UserController.php';
+require_once '../controllers/VeicleController.php';
 
 $router = new Router();
 
+header("content-type:application/json; charset=UTF-8");
 
-?>
+$router = new Router();
+$userController = new UserController($pdo);
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-    <h3>singup teste</h3>
+$router->add('GET', '/users', [$userController, 'list']);
+$router->add('GET', '/users/{id}', [$userController, 'getById']);
+$router->add('POST', '/users', [$userController, 'create']);
+$router->add('DELETE', '/users/{id}', [$userController, 'delete']);
+$router->add('PUT', '/users/{id}', [$userController, 'update']);
 
-    <form action="../config/database.php" method="post">
-        <input type="text" name="username" placeholder="username">
-        <input type="password" name="password" placeholder="password">
-        <input type="text" name="email" placeholder="E-mail">
-        <input type="text" name="cpf" placeholder="CPF">
-        <input type="text" name="cidade" placeholder="cidade">
-        <button>signup</button>
-    </form>
+$requestedPath = parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH);
+$pathItems = explode("/", $requestedPath);
+$requestedPath = "/" . $pathItems[1] . ($pathItems[2] ? "/" . $pathItems[2] : "");
+echo $requestedPath;
 
-</body>
-</html>
+$router->dispatch($requestedPath);
