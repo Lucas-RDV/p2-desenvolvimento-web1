@@ -31,6 +31,12 @@ Este marketplace é direcionado a:
 - **Banco de Dados** - MYsql
 <br/>
 <br/>
+
+## Diagrama do banco
+
+![Diagrama de Entidades](documents/diagrama_entidades.png)
+
+<br/>
 <br/>
 
 Autor: Lucas Ribeiro Dal Vesco 
