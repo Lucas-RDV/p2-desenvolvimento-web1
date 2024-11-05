@@ -9,8 +9,9 @@ class Veicle {
         $this->conn = $db;
     }
 
-    public function create($model, $description, $value, $km, $userid, $sold)
+    public function create($model, $description, $value, $km, $userid)
     {
+        $sold = false;
         $sql = "INSERT INTO veicles (model, description, value, km, userid, sold)
          VALUES (:model, :description, :value, :km, :userid, :sold)";
         $stmt = $this->conn->prepare($sql);

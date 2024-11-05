@@ -24,11 +24,14 @@ Este marketplace é direcionado a:
 - **Anúncio de Veículos**: Usuários autenticados podem cadastrar e gerenciar anúncios de veículos.
 - **Catálogo de Veículos**: Todos os veículos anunciados serão listados em um catálogo acessível a qualquer usuário, mesmo sem estar logado.
 
+## [Instruções para os endpoints](endpoints.md)
+
 ## Requisitos
 
 - **PHP** (versão 7.4 ou superior)
 - **Composer** - para gerenciar as dependências
 - **Banco de Dados** - MYsql
+
 <br/>
 <br/>
 

@@ -76,10 +76,10 @@ class VeicleController {
     {
         $data = json_decode(file_get_contents("php://input"));
         if (isset($data->model) && isset($data->descrition) && isset($data->value) && isset($data->km)
-         && isset($data->userid) && isset($data->sold)) {
+         && isset($data->userid)) {
             try {
                 $this->veicle->create($data->model,$data->description, $data->value,$data->km,
-                $data->userid, $data->sold);
+                $data->userid);
 
                 http_response_code(201);
                 echo json_encode(["message" => "Usuário criado com sucesso."]);
