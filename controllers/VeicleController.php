@@ -36,11 +36,11 @@ class VeicleController {
                     echo json_encode($veicle);
                 } else {
                     http_response_code(404);
-                    echo json_encode(["message" => "Usuário não encontrado."]);
+                    echo json_encode(["message" => "veiculo não encontrado."]);
                 }
             } catch (\Throwable $th) {
                 http_response_code(500);
-                echo json_encode(["message" => "Erro ao buscar o usuário."]);
+                echo json_encode(["message" => "Erro ao buscar veiculo."]);
             }
         } else {
             http_response_code(400);
@@ -57,14 +57,14 @@ class VeicleController {
 
                 if ($count > 0) {
                     http_response_code(200);
-                    echo json_encode(["message" => "Usuário deletado com sucesso."]);
+                    echo json_encode(["message" => "anuncio deletado com sucesso."]);
                 } else {
                     http_response_code(500);
-                    echo json_encode(["message" => "Erro ao deletar o usuário."]);
+                    echo json_encode(["message" => "Erro ao deletar anuncio."]);
                 }
             } catch (\Throwable $th) {
                 http_response_code(500);
-                echo json_encode(["message" => "Erro ao deletar o usuário."]);
+                echo json_encode(["message" => "Erro ao deletar anuncio."]);
             }
         } else {
             http_response_code(400);
@@ -75,17 +75,17 @@ class VeicleController {
     public function create()
     {
         $data = json_decode(file_get_contents("php://input"));
-        if (isset($data->model) && isset($data->descrition) && isset($data->value) && isset($data->km)
+        if (isset($data->model) && isset($data->description) && isset($data->value) && isset($data->km)
          && isset($data->userid)) {
             try {
                 $this->veicle->create($data->model,$data->description, $data->value,$data->km,
                 $data->userid);
 
                 http_response_code(201);
-                echo json_encode(["message" => "Usuário criado com sucesso."]);
+                echo json_encode(["message" => "Veiculo cadastrado com sucesso."]);
             } catch (\Throwable $th) {
                 http_response_code(500);
-                echo json_encode(["message" => "Erro ao criar o usuário."]);
+                echo json_encode(["message" => "Erro ao cadastrar veiculo."]);
             }
         } else {
             http_response_code(400);
@@ -103,14 +103,14 @@ class VeicleController {
                 $data->userid, $data->sold);
                 if ($count > 0) {
                     http_response_code(200);
-                    echo json_encode(["message" => "Usuário atualizado com sucesso."]);
+                    echo json_encode(["message" => "anuncio atualizado com sucesso."]);
                 } else {
                     http_response_code(500);
-                    echo json_encode(["message" => "Erro ao atualizar o usuário."]);
+                    echo json_encode(["message" => "Erro ao atualizar o anuncio."]);
                 }
             } catch (\Throwable $th) {
                 http_response_code(500);
-                echo json_encode(["message" => "Erro ao atualizar o usuário."]);
+                echo json_encode(["message" => "Erro ao atualizar o anuncio."]);
             }
         } else {
             http_response_code(400);

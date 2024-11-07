@@ -22,7 +22,7 @@ class Veicle {
         $stmt->bindParam(':userid', $userid);
         $stmt->bindParam(':sold', $sold);
         return $stmt->execute();
-    }
+    }   
 
     public function list()
     {
