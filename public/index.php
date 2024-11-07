@@ -5,6 +5,7 @@ require_once '../controllers/VeicleController.php';
 
 function isPage() {
     header("content-type:html");
+    return true;
 }
 
 $router = new Router();
@@ -35,7 +36,9 @@ $requestedPath = parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH);
 $pathItems = explode("/", $requestedPath);
 $requestedPath = "/" . $pathItems[1] . ($pathItems[2] ? "/" . $pathItems[2] : "");
 
-$router->dispatch($requestedPath);
+if ($router->dispatch($requestedPath) != true) {
+    exit;
+}
 
 ?>
 
