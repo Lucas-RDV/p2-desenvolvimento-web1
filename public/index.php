@@ -48,21 +48,24 @@ if ($router->dispatch($requestedPath) != true) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CarMarketPlace</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-<div class="navbar-fixed">
-    <nav>
-        <div class="nav-wrapper">
-          <a href="" class="brand-logo">CarMarketPlace</a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="">Sass</a></li>
-            <li><a href="">Components</a></li>
-            <li><a href="">JavaScript</a></li>
-          </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">CarMarketPlace</a>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="login.php">Login</a></li>
+            <li class="nav-item"><a class="nav-link" href="signin.php">Sign Up</a></li>
+        </ul>
+    </nav>
+
+    <div class="container my-5">
+        <div class="row" id="car-container">
         </div>
-      </nav>
-</div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </div>
+    <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

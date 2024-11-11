@@ -42,6 +42,15 @@ class User
         return $stmt->fetch(PDO::FETCH_ASSOC);
     }
 
+    public function login($email, $password) {
+        $sql = "SELECT id FROM users Where email = :email AND password = :password";
+        $stmt = $this->conn->prepare($sql);
+        $stmt->bindParam(':email', $email);
+        $stmt->bindParam(':password', $password);
+        $stmt->execute();
+        return $stmt->fetch(PDO::FETCH_ASSOC);
+    }
+
     public function update($id, $name, $password, $email, $cpf, $phone, $city, $estate)
     {
         $sql = "UPDATE users SET 

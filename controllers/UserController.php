@@ -57,6 +57,20 @@ class UserController {
         }
     }
 
+    public function login($email, $password) {
+        if (isset($email) && isset($password)) {
+            try {
+                $user = $this->user->login($email, $password);
+                if ($user) {
+                    echo json_encode($user);
+                } else {
+                    http_response_code(404);
+                    echo json_encode(["message" => "Usuário não encontrado."]);
+                }
+            }
+        }
+    }
+
     public function update($id)
     {
         $data = json_decode(file_get_contents("php://input"));
