@@ -14,10 +14,10 @@
             <h3>Login</h3>
         </div>
         <div class="card-body">
-            <form action="/login" method="POST">
+            <form id="login-form">
                 <div class="mb-3">
-                    <label for="username" class="form-label">Usuário</label>
-                    <input type="text" class="form-control" id="username" name="username" required>
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="text" class="form-control" id="email" name="email" required>
                 </div>
                 <div class="mb-3">
                     <label for="password" class="form-label">Senha</label>
@@ -31,6 +31,7 @@
         </div>
     </div>
 </div>
+<script src="js/login.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

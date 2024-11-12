@@ -12,7 +12,7 @@ class Veicle {
     public function create($model, $description, $value, $km, $userid)
     {
         $sold = false;
-        $sql = "INSERT INTO veicles (model, description, value, km, userid, sold)
+        $sql = "INSERT INTO veicles (model, description, value, km, userID, sold)
          VALUES (:model, :description, :value, :km, :userid, :sold)";
         $stmt = $this->conn->prepare($sql);
         $stmt->bindParam(':model', $model);
@@ -50,7 +50,7 @@ class Veicle {
 
     public function getById($id)
     {
-        $sql = "SELECT * FROM veicles WHERE id = :id";
+        $sql = "SELECT * FROM veicles WHERE userID = :id";
         $stmt = $this->conn->prepare($sql);
         $stmt->bindParam(':id', $id);
         $stmt->execute();
@@ -62,7 +62,7 @@ class Veicle {
         $sql = "UPDATE veicles SET 
          model= :model, description = :description, value = :value, km = :km, 
         userid = :userid, sold = :sold
-         WHERE id = :id";
+         WHERE userID = :id";
         $stmt = $this->conn->prepare($sql);
         $stmt->bindParam(':id', $id);
         $stmt->bindParam(':model', $model);
@@ -77,7 +77,7 @@ class Veicle {
 
     public function delete($id)
     {
-        $sql = "DELETE FROM veicles WHERE id = :id";
+        $sql = "DELETE FROM veicles WHERE userID = :id";
         $stmt = $this->conn->prepare($sql);
         $stmt->bindParam(':id', $id);
         $stmt->execute();

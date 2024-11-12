@@ -1,0 +1,785 @@
+path: /veicles
+path: /users
+path: /users
+se server method = post
+json_enviado: {"name":"Lucas Ribeiro Dal Vesco","email":"lucas.vesco@gmail.com","phone":"67992937360","cpf":"888.888.888.88","city":"Dourados","estate":"MS","password":"lucas123"}
+response code: 0
+se server method = post
+json_enviado: {"name":"Lucas Ribeiro Dal Vesco","email":"lucas.vesco@gmail.com","phone":"67992937360","cpf":"888.888.888.88","city":"Dourados","estate":"MS","password":"lucas123"}
+response code: 0
+path: /
+path: /veicles
+path: /users
+path: /users
+se server method = post
+json_enviado: {"name":"Lucas Ribeiro Dal Vesco","email":"lucas.vesco@gmail.com","phone":"67992937360","cpf":"888.888.888.88","city":"Dourados","estate":"MS","password":"lucas123"}
+path: /
+path: /veicles
+path: /users
+path: /users
+path: /
+path: /veicles
+path: /users
+path: /users
+se server method = post
+json_enviado: {"name":"Lucas Ribeiro Dal Vesco","email":"lucas.vesco@gmail.com","phone":"67992937360","cpf":"888.888.888.88","city":"Dourados","estate":"MS","password":"lucas123"}
+response code: 0
+path: /
+path: /veicles
+path: /users
+path: /users
+se server method = post
+json_enviado: {"name":"Lucas Ribeiro Dal Vesco","email":"lucas.vesco@gmail.com","phone":"67992937360","cpf":"888.888.888.88","city":"Dourados","estate":"MS","password":"lucas123"}
+response code: 0
+path: /users
+path: /
+path: /veicles
+path: /users
+path: /users
+se server method = post
+json_enviado: {"name":"Lucas Ribeiro Dal Vesco","email":"lucas.vesco@gmail.com","phone":"67992937360","cpf":"888.888.888.88","city":"Dourados","estate":"MS","password":"lucas123"}
+path: /
+path: /veicles
+path: /users
+path: /users
+path: /users
+inicio do create
+path: /users
+inicio do create
+se server method = post
+json_enviado: {"name":"Lucas Ribeiro Dal Vesco","email":"lucas.vesco@gmail.com","phone":"67992937360","cpf":"888.888.888.88","city":"Dourados","estate":"MS","password":"lucas123"}
+path: /
+path: /veicles
+path: /users
+path: /users
+se server method = post
+json_enviado: {"name":null,"email":null,"phone":null,"cpf":null,"city":null,"estate":null,"password":null}
+path: /
+path: /veicles
+path: /users
+path: /users
+se server method = post
+json_enviado: {"name":null,"email":null,"phone":null,"cpf":null,"city":null,"estate":null,"password":null}
+se server method = post
+json_enviado: {"name":null,"email":null,"phone":null,"cpf":null,"city":null,"estate":null,"password":null}
+se server method = post
+json_enviado: {"name":null,"email":null,"phone":null,"cpf":null,"city":null,"estate":null,"password":null}
+path: /
+path: /veicles
+path: /users
+path: /users
+se server method = post
+json_enviado: {"name":"Lucas Ribeiro Dal Vesco","email":"lucas.vesco@gmail.com","phone":"67992937360","cpf":"888.888.888.88","city":"Dourados","estate":"MS","password":"lucas123"}
+se server method = post
+json_enviado: {"name":null,"email":null,"phone":null,"cpf":null,"city":null,"estate":null,"password":null}
+path: /
+path: /veicles
+path: /users
+path: /users
+se server method = post
+json_enviado: {"name":null,"email":null,"phone":null,"cpf":null,"city":null,"estate":null,"password":null}
+response code: 0
+path: /users
+inicio do create
+se server method = post
+json_enviado: {"name":null,"email":null,"phone":null,"cpf":null,"city":null,"estate":null,"password":null}
+response code: 0
+path: /users
+inicio do create
+se server method = post
+json_enviado: {"name":null,"email":null,"phone":null,"cpf":null,"city":null,"estate":null,"password":null}
+response code: 0
+path: /users
+inicio do create
+se server method = post
+json_enviado: {"name":null,"email":null,"phone":null,"cpf":null,"city":null,"estate":null,"password":null}
+response code: 0
+path: /users
+inicio do create
+se server method = post
+json_enviado: {"name":null,"email":null,"phone":null,"cpf":null,"city":null,"estate":null,"password":null}
+response code: 0
+path: /users
+inicio do create
+se server method = post
+json_enviado: {"name":null,"email":null,"phone":null,"cpf":null,"city":null,"estate":null,"password":null}
+response code: 0
+se server method = post
+json_enviado: {"name":null,"email":null,"phone":null,"cpf":null,"city":null,"estate":null,"password":null}
+response code: 0
+path: /
+path: /veicles
+path: /users
+path: /users
+se server method = post
+json_enviado: {"name":null,"email":null,"phone":null,"cpf":null,"city":null,"estate":null,"password":null}
+response code: 0
+path: /
+path: /veicles
+path: /users
+path: /users
+se server method = post
+json_enviado: {"name":null,"email":null,"phone":null,"cpf":null,"city":null,"estate":null,"password":null}
+response code: 405
+se server method = post
+json_enviado: {"name":null,"email":null,"phone":null,"cpf":null,"city":null,"estate":null,"password":null}
+response code: 0
+path: /users
+inicio do create
+se server method = post
+json_enviado: {"name":null,"email":null,"phone":null,"cpf":null,"city":null,"estate":null,"password":null}
+response code: 405
+se server method = post
+json_enviado: {"name":null,"email":null,"phone":null,"cpf":null,"city":null,"estate":null,"password":null}
+response code: 405
+path: /
+path: /veicles
+path: /users
+path: /users
+se server method = post
+json_enviado: {"name":null,"email":null,"phone":null,"cpf":null,"city":null,"estate":null,"password":null}
+response code: 405
+se server method = post
+json_enviado: {"name":null,"email":null,"phone":null,"cpf":null,"city":null,"estate":null,"password":null}
+response code: 200
+se server method = post
+json_enviado: {"name":null,"email":null,"phone":null,"cpf":null,"city":null,"estate":null,"password":null}
+response code: 201
+se server method = post
+json_enviado: {"name":null,"email":null,"phone":null,"cpf":null,"city":null,"estate":null,"password":null}
+response code: 201
+se server method = post
+json_enviado: {"name":"Lucas Ribeiro Dal Vesco","email":"lucas.vesco@gmail.com","phone":"67992937360","cpf":"888.888.888.88","city":"Dourados","estate":"MS","password":"lucas123"}
+response code: 201
+path: /signin
+path: /
+path: /veicles
+path: /
+path: /veicles
+path: /users
+path: /users
+path: /users
+inicio do create
+path: /users
+inicio do create
+path: /users
+inicio do create
+path: /users
+inicio do create
+path: /users
+inicio do create
+path: /users
+inicio do create
+path: /users
+inicio do create
+path: /users
+inicio do create
+path: /users
+inicio do create
+path: /users
+inicio do create
+path: /users
+inicio do create
+path: /users
+inicio do create
+path: /users
+inicio do create
+path: /users
+inicio do create
+path: /users
+inicio do create
+path: /users
+inicio do create
+path: /users
+inicio do create
+path: /users
+inicio do create
+path: /users
+inicio do create
+apos consulta no banco
+path: /users
+inicio do create
+path: /users
+inicio do create
+path: /users
+inicio do create
+path: /users
+inicio do create
+path: /
+path: /veicles
+path: /
+path: /veicles
+path: /users
+path: /
+path: /
+path: /
+path: /
+path: /
+path: /
+path: /
+path: /
+path: /
+path: /
+path: /veicles
+path: /users
+path: /veicles
+path: /
+path: /
+path: //
+path: /
+path: /
+path: /veicles
+path: /users
+inicio do create
+path: /users
+inicio do create
+path: /users
+inicio do create
+path: /users
+inicio do create
+path: /users
+inicio do create
+path: /users
+inicio do create
+path: /users
+inicio do create
+path: /users
+inicio do create
+path: /users
+path: /users
+path: /
+path: /veicles
+path: /users
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+path: /users
+inicio do create
+depois do json_decode
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'lucas.vesco@gmail.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /login
+path: /login
+path: /login
+path: /login
+path: /login
+path: /user
+path: /login
+path: /users/login
+path: /users/1
+path: /users/1
+path: /login
+path: /update/1
+path: /users/1
+path: /login
+path: /users/1
+path: /users/1
+path: /users/1
+path: /users/1
+path: /users
+path: /users
+path: /users
+path: /users
+path: /users
+path: /users
+path: /users
+path: /users
+path: /users
+path: /users
+path: /users
+path: /users
+path: /users
+path: /users
+path: /users
+path: /
+path: /veicles
+path: /
+path: /veicles
+path: /
+path: /veicles
+path: /
+path: /veicles
+path: /
+path: /veicles
+path: /users
+path: /
+path: /veicles
+path: /
+path: /veicles
+path: /
+path: /veicles
+path: /users
+path: /users
+path: /users
+path: /users
+path: /users
+path: /users
+path: /users
+path: /
+path: /veicles
+path: /
+path: /veicles
+path: /
+path: /veicles
+path: /
+path: /veicles
+path: /
+path: /veicles
+path: /
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /
+path: /veicles
+path: /users/3
+path: /
+path: /veicles
+path: /users/3
+path: /
+path: /veicles
+path: /users/3
+path: /
+path: /veicles
+path: /users/3
+path: /users/3
+path: /
+path: /veicles
+path: /users/3
+path: /users/3
+path: /users/3
+path: /
+path: /veicles/notsold
+path: /users/3
+path: /users/3
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+path: /
+path: /veicles/notsold
+path: /users/3
+path: /users/3
+path: /veicles
+path: /
+path: /veicles/notsold
+path: /users/3
+path: /users/3
+path: /users/4
+path: /users/4
+path: /
+path: /veicles/notsold
+path: /users/3
+path: /users/3
+path: /users/4
+path: /users/4
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'bobdjhow@teucu.com.br' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'bobdjhow@teucu.com.br' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'bobdjhow@teucu.com.br' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'bobdjhow@teucu.com.br' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'bobdjhow@teucu.com.br' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'bobdjhow@teucu.com.br' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'bobdjhow@teucu.com.br' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'bobdjhow@teucu.com.br' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'bobdjhow@teucu.com.br' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'bobdjhow@teucu.com.br' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'bobdjhow@teucu.com.br' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'bobdjhow@teucu.com.br' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'bobdjhow@teucu.com.br' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'bobdjhow@teucu.com.br' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'bobdjhow@teucu.com.br' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'bobdjhow@teucu.com.br' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'bobdjhow@teucu.com.br' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'bobdjhow@teucu.com.br' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'bobdjhow@teucu.com.br' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'bobdjhow@teucu.com.br' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'bobdjhow@teucu.com.br' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'bobdjhow@teucu.com.br' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'bobdjhow@teucu.com.br' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}

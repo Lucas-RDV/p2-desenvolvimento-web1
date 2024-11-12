@@ -74,6 +74,7 @@ class VeicleController {
 
     public function create()
     {
+        
         $data = json_decode(file_get_contents("php://input"));
         if (isset($data->model) && isset($data->description) && isset($data->value) && isset($data->km)
          && isset($data->userid)) {

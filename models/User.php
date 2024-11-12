@@ -12,8 +12,10 @@ class User
 
     public function create($name, $password, $email, $cpf, $phone, $city, $estate)
     {
+        error_log('antes da consulta no model user'."\r\n", 3, "error.log");
         $sql = "INSERT INTO users (name, password, email, cpf, phone, city, estate)
          VALUES (:name, :password, :email, :cpf, :phone, :city, :estate)";
+         error_log('antes da conexao com o banco'."\r\n", 3, "error.log");
         $stmt = $this->conn->prepare($sql);
         $stmt->bindParam(':name', $name);
         $stmt->bindParam(':password', $password);
@@ -22,6 +24,7 @@ class User
         $stmt->bindParam(':phone', $phone);
         $stmt->bindParam(':city', $city);
         $stmt->bindParam(':estate', $estate);
+        error_log('antes do execute'."\r\n", 3, "error.log");
         return $stmt->execute();
     }
 
@@ -35,7 +38,7 @@ class User
 
     public function getById($id)
     {
-        $sql = "SELECT * FROM users WHERE id = :id";
+        $sql = "SELECT * FROM users WHERE userID = :id";
         $stmt = $this->conn->prepare($sql);
         $stmt->bindParam(':id', $id);
         $stmt->execute();
@@ -43,7 +46,7 @@ class User
     }
 
     public function login($email, $password) {
-        $sql = "SELECT id FROM users Where email = :email AND password = :password";
+        $sql = "SELECT userID FROM users Where email = :email AND password = :password";
         $stmt = $this->conn->prepare($sql);
         $stmt->bindParam(':email', $email);
         $stmt->bindParam(':password', $password);
@@ -56,7 +59,7 @@ class User
         $sql = "UPDATE users SET 
         name = :name, password = :password, email = :email, cpf = :cpf, 
         phone = :phone, city = :city, estate = :estate
-         WHERE id = :id";
+         WHERE userID = :id";
         $stmt = $this->conn->prepare($sql);
         $stmt->bindParam(':id', $id);
         $stmt->bindParam(':name', $name);
@@ -72,7 +75,7 @@ class User
 
     public function delete($id)
     {
-        $sql = "DELETE FROM users WHERE id = :id";
+        $sql = "DELETE FROM users WHERE userID = :id";
         $stmt = $this->conn->prepare($sql);
         $stmt->bindParam(':id', $id);
         $stmt->execute();
