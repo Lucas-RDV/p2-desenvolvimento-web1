@@ -783,3 +783,2078 @@ Stack trace:
 #2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
 #3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
 #4 {main}
+path: /
+path: /
+path: /veicles/notsold
+path: /users/3
+path: /users/3
+path: /users/4
+path: /users/4
+path: /users
+path: /
+path: /veicles/notsold
+path: /users/3
+path: /users/3
+path: /users/4
+path: /users/4
+path: /veicles
+path: /veicles/1
+path: /veicles
+path: /veicles/1
+path: /veicles/1
+path: /veicles
+path: /veicles/1
+path: /veicles
+path: /veicles/1
+path: /veicles/1
+path: /veicles
+path: /veicles/1
+path: /veicles
+path: /veicles/1
+path: /veicles/1
+path: /veicles
+path: /veicles/1
+path: /veicles
+path: /veicles/1
+path: /veicles/1
+path: /users
+path: /users/1
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users/1
+path: /users/1
+path: /veicles
+path: /veicles/1
+path: /veicles
+path: /veicles/1
+path: /veicles/1
+path: /users
+path: /users/1
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users/1
+path: /users/1
+path: /veicles
+path: /veicles/1
+path: /veicles
+path: /veicles/1
+path: /veicles/1
+path: /users
+path: /users/1
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users/1
+path: /users/1
+path: /veicles
+path: /veicles/1
+path: /veicles
+path: /veicles/1
+path: /veicles/1
+path: /users
+path: /users/1
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'teste@user.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users/1
+path: /users/1
+path: /veicles
+path: /veicles/1
+path: /veicles
+path: /veicles/1
+path: /veicles/1
+path: /users
+path: /users/1
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'teste@user.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users/1
+path: /users/1
+path: /veicles
+path: /veicles/1
+path: /veicles
+path: /veicles/1
+path: /veicles/1
+path: /users
+path: /users/1
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'teste@user.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users/1
+path: /users/1
+path: /veicles
+path: /veicles/1
+path: /veicles
+path: /veicles/1
+path: /veicles/1
+path: /users
+path: /users/1
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'teste@user.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users/1
+path: /users/1
+path: /veicles
+path: /veicles/1
+path: /veicles
+path: /veicles/1
+path: /veicles/1
+path: /users/1]
+path: /users/1
+path: /
+path: /veicles/notsold
+path: /users/3
+path: /users/3
+path: /users/4
+path: /users/4
+path: /users
+path: /users/1
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'teste@user.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users/1
+path: /users/1
+path: /veicles
+path: /veicles/1
+path: /veicles
+path: /veicles/1
+path: /veicles/1
+path: /users
+path: /users
+path: /users/1
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'teste@user.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users/1
+path: /users/1
+path: /veicles
+path: /veicles/1
+path: /veicles
+path: /veicles/1
+path: /veicles/1
+path: /users
+path: /users
+path: /users/1
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'teste@user.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users/1
+path: /users/1
+path: /veicles
+path: /veicles/1
+path: /veicles
+path: /veicles/1
+path: /veicles/1
+path: /users
+path: /users/1
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'teste@user.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users/1
+path: /users/1
+path: /veicles
+path: /veicles/1
+path: /veicles
+path: /veicles/1
+path: /veicles/1
+path: /users/3
+path: /users
+path: /users/3
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users/1
+path: /users/1
+path: /veicles
+path: /veicles/1
+path: /veicles
+path: /veicles/1
+path: /veicles/1
+path: /users
+path: /users/3
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users/1
+path: /users/1
+path: /veicles
+path: /veicles/1
+path: /veicles
+path: /veicles/1
+path: /veicles/1
+path: /users
+path: /users/3
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users/1
+path: /users/1
+path: /veicles
+path: /veicles/1
+path: /veicles
+path: /veicles/1
+path: /veicles/1
+path: /users
+path: /users/3
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'teste@user.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(31): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users/1
+path: /users/1
+path: /veicles
+path: /veicles/1
+path: /veicles
+path: /veicles/1
+path: /veicles/1
+path: /
+path: /veicles/notsold
+path: /users/3
+path: /users/3
+path: /users/4
+path: /users/4
+path: /veicles
+path: /veicles/1
+path: /veicles
+path: /veicles/1
+path: /veicles/1
+path: /veicles
+path: /veicles
+path: /veicles
+path: /
+path: /veicles/notsold
+path: /users/3
+path: /users/3
+path: /users/4
+path: /users/4
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+path: /
+path: /veicles/notsold
+path: /users/3
+path: /users/3
+path: /users/4
+path: /users/4
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+path: /users47
+path: /users
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+path: /users47
+path: /users
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+path: /users47
+path: /users
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/47
+path: /users/47
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/59
+path: /users/59
+path: /
+path: /veicles/notsold
+path: /users/3
+path: /users/3
+path: /users/4
+path: /users/4
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/61
+path: /users/61
+path: /users
+path: /users/61
+path: /users/61
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/63
+path: /users/63
+path: /users
+path: /users/63
+path: /users/63
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/65
+path: /users/65
+path: /users
+path: /users/65
+path: /users/65
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/67
+path: /users/67
+path: /users
+path: /users/67
+path: /users/67
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(42): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/69
+path: /users/69
+path: /users
+path: /users/69
+path: /users/69
+path: /users
+path: /users/69
+path: /users/69
+path: /
+path: /veicles/notsold
+path: /users/3
+path: /users/3
+path: /users/4
+path: /users/4
+path: /
+path: /veicles/notsold
+path: /users/3
+path: /users/3
+path: /users/4
+path: /users/4
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(41): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/72
+path: /users/72
+path: /users
+path: /users/72
+path: /users/72
+path: /users
+path: /users/72
+path: /users/72
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles/23
+path: /veicles/23
+path: /veicles
+path: /veicles/
+path: /veicles/
+path: /veicles
+path: /veicles/
+path: /veicles/
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(41): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/74
+path: /users/74
+path: /users
+path: /users/74
+path: /users/74
+path: /users
+path: /users/74
+path: /users/74
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles/25
+path: /veicles/25
+path: /veicles
+path: /veicles/
+path: /veicles/
+path: /veicles
+path: /veicles/
+path: /veicles/
+path: /veicles
+path: /veicles/26
+path: /
+path: /veicles/notsold
+path: /users/3
+path: /users/3
+path: /users/4
+path: /users/4
+path: /users/0
+path: /users/0
+path: /users/0
+path: /users/0
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(41): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/76
+path: /users/76
+path: /users
+path: /users/76
+path: /users/76
+path: /users
+path: /users/76
+path: /users/76
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles/27
+path: /veicles/27
+path: /veicles
+path: /veicles/
+path: /veicles/
+path: /veicles
+path: /veicles/
+path: /veicles/
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(41): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/78
+path: /users/78
+path: /users
+path: /users/78
+path: /users/78
+path: /users
+path: /users/78
+path: /users/78
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles/29
+path: /veicles/29
+path: /veicles
+path: /veicles/
+path: /veicles/
+path: /veicles
+path: /veicles/
+path: /veicles/
+path: /
+path: /veicles/notsold
+path: /users/3
+path: /users/3
+path: /users/4
+path: /users/4
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(41): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/80
+path: /users/80
+path: /users
+path: /users/80
+path: /users/80
+path: /users
+path: /users/80
+path: /users/80
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles/31
+path: /veicles/31
+path: /veicles
+path: /veicles/
+path: /veicles/
+path: /veicles
+path: /veicles/
+path: /veicles/
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(41): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/82
+path: /users/82
+path: /users
+path: /users/82
+path: /users/82
+path: /users
+path: /users/82
+path: /users/82
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles/33
+path: /veicles/33
+path: /veicles
+path: /veicles/
+path: /veicles/
+path: /veicles
+path: /veicles/
+path: /veicles/
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(41): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/84
+path: /users/84
+path: /users
+path: /users/84
+path: /users/84
+path: /users
+path: /users/84
+path: /users/84
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles/34
+path: /veicles
+path: /veicles/
+path: /veicles
+path: /veicles/
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(41): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/86
+path: /users/86
+path: /users
+path: /users/86
+path: /users/86
+path: /users
+path: /users/86
+path: /users/86
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles/35
+path: /veicles
+path: /veicles/
+path: /veicles
+path: /veicles/
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(41): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/88
+path: /users/88
+path: /users
+path: /users/88
+path: /users/88
+path: /users
+path: /users/88
+path: /users/88
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles/35
+path: /veicles
+path: /veicles/
+path: /veicles
+path: /veicles/
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(41): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/90
+path: /users/90
+path: /users
+path: /users/90
+path: /users/90
+path: /users
+path: /users/90
+path: /users/90
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles/35
+path: /veicles
+path: /veicles/
+path: /veicles
+path: /veicles/
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(41): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/92
+path: /users/92
+path: /users
+path: /users/92
+path: /users/92
+path: /users
+path: /users/92
+path: /users/92
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles/35
+path: /veicles
+path: /veicles/
+path: /veicles
+path: /veicles/
+path: /veicles/38
+path: /veicles/38
+path: /veicles/38
+path: /veicles/38
+path: /veicles/38
+path: /veicles/38
+path: /veicles/38
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(41): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/94
+path: /users/94
+path: /users
+path: /users/94
+path: /users/94
+path: /users
+path: /users/94
+path: /users/94
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles/39
+path: /veicles/39
+path: /veicles
+path: /veicles/
+path: /veicles/
+path: /veicles
+path: /veicles/
+path: /veicles/
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(41): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/96
+path: /users/96
+path: /users
+path: /users/96
+path: /users/96
+path: /users
+path: /users/96
+path: /users/96
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles/39
+path: /veicles/39
+path: /veicles
+path: /veicles/
+path: /veicles/
+path: /veicles
+path: /veicles/
+path: /veicles/
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(41): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/98
+path: /users/98
+path: /users
+path: /users/98
+path: /users/98
+path: /users
+path: /users/98
+path: /users/98
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles/43
+path: /veicles
+path: /veicles/
+path: /veicles
+path: /veicles/
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(41): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/100
+path: /users/100
+path: /users
+path: /users/100
+path: /users/100
+path: /users
+path: /users/100
+path: /users/100
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles/44
+path: /veicles
+path: /veicles/
+path: /veicles
+path: /veicles/
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(41): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/102
+path: /users/102
+path: /users
+path: /users/102
+path: /users/102
+path: /users
+path: /users/102
+path: /users/102
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles/44
+path: /veicles
+path: /veicles/
+path: /veicles
+path: /veicles/
+path: /veicles
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(41): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/104
+path: /users/104
+path: /users
+path: /users/104
+path: /users/104
+path: /users
+path: /users/104
+path: /users/104
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles/44
+path: /veicles
+path: /veicles/44
+path: /veicles
+path: /veicles/
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(41): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/106
+path: /users/106
+path: /users
+path: /users/106
+path: /users/106
+path: /users
+path: /users/106
+path: /users/106
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles/45
+path: /veicles
+path: /veicles/45
+path: /veicles
+path: /veicles/
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(41): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/108
+path: /users/108
+path: /users
+path: /users/108
+path: /users/108
+path: /users
+path: /users/108
+path: /users/108
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles/46
+path: /veicles
+path: /veicles/46
+path: /veicles
+path: /veicles/
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(41): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/110
+path: /users/110
+path: /users
+path: /users/110
+path: /users/110
+path: /users
+path: /users/110
+path: /users/110
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles/49
+path: /veicles
+path: /veicles/49
+path: /veicles
+path: /veicles/
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(41): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/112
+path: /users/112
+path: /users
+path: /users/112
+path: /users/112
+path: /users
+path: /users/112
+path: /users/112
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles/50
+path: /veicles
+path: /veicles/50
+path: /veicles
+path: /veicles/
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(41): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/114
+path: /users/114
+path: /users
+path: /users/114
+path: /users/114
+path: /users
+path: /users/114
+path: /users/114
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles/51
+path: /veicles
+path: /veicles/51
+path: /veicles
+path: /veicles/
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(41): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/116
+path: /users/116
+path: /users
+path: /users/116
+path: /users/116
+path: /users
+path: /users/116
+path: /users/116
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles/52
+path: /veicles
+path: /veicles/52
+path: /veicles
+path: /veicles/52
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(41): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/118
+path: /users/118
+path: /users
+path: /users/118
+path: /users/118
+path: /users
+path: /users/118
+path: /users/118
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles/53
+path: /veicles
+path: /veicles/53
+path: /veicles
+path: /veicles/52
+path: /
+path: /veicles/notsold
+path: /users/3
+path: /users/3
+path: /users/4
+path: /users/4
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(41): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/120
+path: /users/120
+path: /users
+path: /users/120
+path: /users/120
+path: /users
+path: /users/120
+path: /users/120
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles/54
+path: /veicles
+path: /veicles/54
+path: /veicles
+path: /veicles/52
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(41): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/122
+path: /users/122
+path: /users
+path: /users/122
+path: /users/122
+path: /users
+path: /users/122
+path: /users/122
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles/55
+path: /veicles
+path: /veicles/55
+path: /veicles
+path: /veicles/55

@@ -22,7 +22,6 @@ $router->add('GET', '/users/{id}', [$userController, 'getById']);
 $router->add('POST', '/users', [$userController, 'create']);
 $router->add('DELETE', '/users/{id}', [$userController, 'delete']);
 $router->add('PUT', '/users/{id}', [$userController, 'update']);
-// $router->add('GET', '/login', [$userController, 'login']); esta merda nao funciona
 
 $router->add('GET', '/veicles', [$veicleController, 'list']);
 $router->add('GET', '/veicles/sold', [$veicleController, 'listSold']);

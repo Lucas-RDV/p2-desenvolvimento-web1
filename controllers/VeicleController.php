@@ -12,18 +12,21 @@ class VeicleController {
     public function list()
     {
         $veicles = $this->veicle->list();
+        http_response_code(200);
         echo json_encode($veicles);
     }
 
     public function listSold()
     {
         $veicles = $this->veicle->listSold();
+        http_response_code(200);
         echo json_encode($veicles);
     }
 
     public function listNotSold()
     {
         $veicles = $this->veicle->listNotSold();
+        http_response_code(200);
         echo json_encode($veicles);
     }
 
@@ -33,6 +36,7 @@ class VeicleController {
             try {
                 $veicle = $this->veicle->getById($id);
                 if ($veicle) {
+                    http_response_code(200);
                     echo json_encode($veicle);
                 } else {
                     http_response_code(404);
@@ -82,7 +86,7 @@ class VeicleController {
                 $this->veicle->create($data->model,$data->description, $data->value,$data->km,
                 $data->userid);
 
-                http_response_code(201);
+                http_response_code(200);
                 echo json_encode(["message" => "Veiculo cadastrado com sucesso."]);
             } catch (\Throwable $th) {
                 http_response_code(500);
@@ -97,8 +101,8 @@ class VeicleController {
     public function update($id)
     {
         $data = json_decode(file_get_contents("php://input"));
-        if (isset($id) && isset($data->model) && isset($data->descrition) && isset($data->value) && isset($data->km)
-        && isset($data->userid) && isset($data->sold)) {
+        if (isset($id) && isset($data->model) && isset($data->description) && isset($data->value) && isset($data->km)
+        && isset($data->userID) && isset($data->sold)) {
             try {
                 $count = $this->veicle->update($id, $data->model,$data->description, $data->value,$data->km,
                 $data->userid, $data->sold);
