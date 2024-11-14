@@ -54,13 +54,12 @@ if ($router->dispatch($requestedPath) != true) {
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">CarMarketPlace</a>
+        <a class="navbar-brand" href="/">CarMarketPlace</a>
         <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a class="nav-link" href="login.php">Login</a></li>
             <li class="nav-item"><a class="nav-link" href="signin.php">Sign Up</a></li>
         </ul>
     </nav>
-
     <div class="container my-5">
         <div class="row" id="car-container">
         </div>

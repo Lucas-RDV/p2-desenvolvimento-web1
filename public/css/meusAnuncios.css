@@ -1,0 +1,21 @@
+.card {
+    position: relative;
+    padding-top: 10px;
+    padding-right: -50px;
+}
+
+.card .btn-settings {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 10;
+    background-color: transparent;
+    color: #000;
+    border: none;
+    padding: 0;
+}
+
+.card .btn-settings i {
+    font-size: 1.5rem;
+}
+

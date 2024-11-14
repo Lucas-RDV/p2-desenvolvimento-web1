@@ -10,12 +10,10 @@ function updateNavbar() {
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="perfilDropdown">
                     <a class="dropdown-item" href="anunciar.php">Anunciar</a>
-                    <a class="dropdown-item" href="meus_anuncios.php">Meus Anúncios</a>
+                    <a class="dropdown-item" href="meus-anuncios.php">Meus Anúncios</a>
                     <a class="dropdown-item" href="contaConfig.php">Alterar Dados da Conta</a>
                 </div>
             </li>
-
-            <!-- Botão de Logout -->
             <li class="nav-item" id="logoutbtn"><a class="nav-link" href="#">Sair</a></li>
         `;
         document.getElementById('logoutbtn').addEventListener('click', () => {
@@ -24,7 +22,7 @@ function updateNavbar() {
         });
     }
 }
-// pega o contato do anunciante
+
 async function getUserPhone(userID) {
     const response = await fetch(`/users/${userID}`);
 
@@ -36,7 +34,6 @@ async function getUserPhone(userID) {
     return user.phone;
 }
 
-// pega nome do dono do anuncio
 async function getUserName(userID) {
     const response = await fetch(`/users/${userID}`);
 
@@ -49,23 +46,17 @@ async function getUserName(userID) {
     return user.name;
 }
 
-// cria os cards dos anuncios
 async function loadCars() {
     try {
         const response = await fetch('/veicles/notsold');
         if (!response.ok) {
             throw new Error(`Erro ao carregar os carros: ${response.status}`);
         }
-
         const cars = await response.json();
         const carContainer = document.getElementById('car-container');
-
         for (const car of cars) {
-            //pega dados
             const userName = await getUserName(car.userID);
             const userPhone = await getUserPhone(car.userID);
-
-            // cria card
             const carCard = document.createElement('div');
             carCard.className = 'col-md-3 mb-4';
             carCard.innerHTML = `
@@ -89,6 +80,5 @@ async function loadCars() {
     }
 }
 
-// roda a funcao ao ler o script
 updateNavbar();
 loadCars();

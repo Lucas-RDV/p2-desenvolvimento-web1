@@ -92,7 +92,6 @@ class VeicleEndpointsTest extends TestCase
             "description" => "Veículo update.",
             "value" => 80000,
             "km" => 60000,
-            "userID" => 0,
             "sold" => 1
         ];
         $options = [

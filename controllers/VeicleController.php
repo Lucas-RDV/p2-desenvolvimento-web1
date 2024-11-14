@@ -1,7 +1,8 @@
 <?php
 require_once '../models/Veicle.php';
 
-class VeicleController {
+class VeicleController
+{
     private $veicle;
 
     public function __construct($db)
@@ -78,13 +79,20 @@ class VeicleController {
 
     public function create()
     {
-        
+
         $data = json_decode(file_get_contents("php://input"));
-        if (isset($data->model) && isset($data->description) && isset($data->value) && isset($data->km)
-         && isset($data->userid)) {
+        if (
+            isset($data->model) && isset($data->description) && isset($data->value) && isset($data->km)
+            && isset($data->userid)
+        ) {
             try {
-                $this->veicle->create($data->model,$data->description, $data->value,$data->km,
-                $data->userid);
+                $this->veicle->create(
+                    $data->model,
+                    $data->description,
+                    $data->value,
+                    $data->km,
+                    $data->userid
+                );
 
                 http_response_code(200);
                 echo json_encode(["message" => "Veiculo cadastrado com sucesso."]);
@@ -101,11 +109,19 @@ class VeicleController {
     public function update($id)
     {
         $data = json_decode(file_get_contents("php://input"));
-        if (isset($id) && isset($data->model) && isset($data->description) && isset($data->value) && isset($data->km)
-        && isset($data->userID) && isset($data->sold)) {
+        if (
+            isset($id) && isset($data->model) && isset($data->description) && isset($data->value) && isset($data->km)
+            && isset($data->sold)
+        ) {
             try {
-                $count = $this->veicle->update($id, $data->model,$data->description, $data->value,$data->km,
-                $data->userid, $data->sold);
+                $count = $this->veicle->update(
+                    $id,
+                    $data->model,
+                    $data->description,
+                    $data->value,
+                    $data->km,
+                    $data->sold
+                );
                 if ($count > 0) {
                     http_response_code(200);
                     echo json_encode(["message" => "anuncio atualizado com sucesso."]);

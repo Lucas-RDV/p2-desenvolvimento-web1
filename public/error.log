@@ -2858,3 +2858,334 @@ path: /veicles
 path: /veicles/55
 path: /veicles
 path: /veicles/55
+path: /
+path: /veicles/notsold
+path: /users/3
+path: /users/3
+path: /users/4
+path: /users/4
+path: /users
+path: /
+path: /veicles/notsold
+path: /users/3
+path: /users/3
+path: /users/4
+path: /users/4
+path: /login
+path: /login
+path: /
+path: /veicles/notsold
+path: /users/3
+path: /users/3
+path: /users/4
+path: /users/4
+path: /
+path: /veicles/notsold
+path: /users/3
+path: /users/3
+path: /users/4
+path: /users/4
+path: /
+path: /veicles/notsold
+path: /users/3
+path: /users/3
+path: /users/4
+path: /users/4
+path: /veicles
+path: /users
+path: /
+path: /veicles/notsold
+path: /users/3
+path: /users/3
+path: /users/4
+path: /users/4
+path: /veicles
+path: /veicles/2
+path: /veicles
+path: /veicles/2
+path: /veicles/2
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles/2
+path: /veicles/2
+path: /veicles
+path: /veicles
+path: /veicles/2
+path: /veicles/2
+path: /veicles
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(41): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/124
+path: /users/124
+path: /users
+path: /users/124
+path: /users/124
+path: /users
+path: /users/124
+path: /users/124
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles/56
+path: /veicles
+path: /veicles/56
+path: /veicles
+path: /veicles/
+path: /veicles
+path: /users
+path: /users
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+depois do comando sql
+path: /users
+inicio do create
+depois do json_decode
+dentro do if
+dentro do trycatch
+antes da consulta no model user
+antes da conexao com o banco
+antes do execute
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'test@example.com' for key 'email' in C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php:28
+Stack trace:
+#0 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\models\User.php(28): PDOStatement->execute()
+#1 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\controllers\UserController.php(32): User->create()
+#2 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\Router.php(17): UserController->create()
+#3 C:\Users\lucas\OneDrive\Desktop\engenharia de software\faculdade\desenvolvimento web 1\p2-desenvolvimento-web1\public\index.php(41): Router->dispatch()
+#4 {main}
+path: /users
+path: /users/126
+path: /users/126
+path: /users
+path: /users/126
+path: /users/126
+path: /users
+path: /users/126
+path: /users/126
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles/56
+path: /veicles
+path: /veicles/56
+path: /veicles
+path: /veicles/56
+path: /veicles
+path: /veicles/2
+path: /veicles/2
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles/2
+path: /veicles/2
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /users
+path: /
+path: /veicles/notsold
+path: /users/3
+path: /users/3
+path: /users/4
+path: /users/4
+path: /veicles
+path: /
+path: /veicles/notsold
+path: /users/3
+path: /users/3
+path: /users/4
+path: /users/4
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /
+path: /veicles/notsold
+path: /users/3
+path: /users/3
+path: /users/4
+path: /users/4
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles/2
+path: /veicles/2
+path: /veicles
+path: /veicles/2
+path: /veicles/2
+path: /veicles/2
+path: /veicles/2
+path: /veicles/2
+path: /veicles/2
+path: /veicles/2
+path: /veicles/2
+path: /veicles/2
+path: /veicles/2
+path: /veicles/2
+path: /veicles/2
+path: /veicles/2
+path: /veicles
+path: /veicles/2
+path: /veicles/2
+path: /veicles
+path: /veicles
+path: /veicles/2
+path: /veicles/2
+path: /veicles/2
+path: /veicles
+path: /veicles/2
+path: /veicles/2
+path: /veicles
+path: /veicles/2
+path: /veicles/2
+path: /veicles
+path: /users
+path: /
+path: /veicles/notsold
+path: /users/3
+path: /users/3
+path: /users/4
+path: /users/4
+path: /veicles
+path: /veicles
+path: /veicles/2
+path: /veicles/2
+path: /veicles/2
+path: /veicles/2
+path: /veicles/2
+path: /veicles/2
+path: /veicles
+path: /veicles/2
+path: /veicles/2
+path: /veicles
+path: /veicles/2
+path: /veicles/2
+path: /veicles
+path: /veicles
+path: /veicles
+path: /veicles
+path: /
+path: /veicles/notsold
+path: /users/3
+path: /users/3
+path: /users/4
+path: /users/4
+path: /user/4
+path: /users/4
+path: /users/4
+path: /users/4
+path: /users/4
+path: /users/4
+path: /veicles
+path: /veicles/2
+path: /users/4
+path: /users/4
+path: /veicles
+path: /users/4
+path: /users/4
+path: /veicles
+path: /users/4
+path: /veicles
+path: /
+path: /veicles/notsold
+path: /users/3
+path: /users/3
+path: /users/4
+path: /users/4

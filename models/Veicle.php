@@ -57,11 +57,10 @@ class Veicle {
         return $stmt->fetch(PDO::FETCH_ASSOC);
     }
 
-    public function update($id,$model, $description, $value, $km, $userid, $sold)
+    public function update($id,$model, $description, $value, $km, $sold)
     {
         $sql = "UPDATE veicles SET 
-         model= :model, description = :description, value = :value, km = :km, 
-        userID = :userid, sold = :sold
+         model= :model, description = :description, value = :value, km = :km,  sold = :sold
          WHERE veicleID = :id";
         $stmt = $this->conn->prepare($sql);
         $stmt->bindParam(':id', $id);
@@ -69,7 +68,6 @@ class Veicle {
         $stmt->bindParam(':description', $description);
         $stmt->bindParam(':value', $value);
         $stmt->bindParam(':km', $km);
-        $stmt->bindParam(':userid', $userid);
         $stmt->bindParam(':sold', $sold);
         $stmt->execute();
         return $stmt->rowCount();
