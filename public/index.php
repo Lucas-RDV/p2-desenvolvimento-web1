@@ -3,7 +3,8 @@ require_once '../Router.php';
 require_once '../controllers/UserController.php';
 require_once '../controllers/VeicleController.php';
 
-function isPage() {
+function isPage()
+{
     header("content-type:html");
     return true;
 }
@@ -36,7 +37,7 @@ $router->add('GET', '/', 'isPage');
 $requestedPath = parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH);
 $pathItems = explode("/", $requestedPath);
 $requestedPath = "/" . $pathItems[1] . (isset($pathItems[2]) ? "/" . $pathItems[2] : "");
-error_log('path: '.$requestedPath."\r\n", 3, "error.log");
+error_log('path: ' . $requestedPath . "\r\n", 3, "error.log");
 
 if ($router->dispatch($requestedPath) != true) {
     exit;
@@ -46,12 +47,14 @@ if ($router->dispatch($requestedPath) != true) {
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CarMarketPlace</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="/">CarMarketPlace</a>
@@ -69,4 +72,5 @@ if ($router->dispatch($requestedPath) != true) {
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>

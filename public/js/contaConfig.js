@@ -1,7 +1,3 @@
-if (localStorage.getItem("userID") == null) {
-    window.location.href = "login.php";
-}
-
 const userID = localStorage.getItem("userID");
 let originalUserData = {};
 

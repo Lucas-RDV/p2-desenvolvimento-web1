@@ -1,8 +1,3 @@
-if (localStorage.getItem("userID") == null) {
-    alert("Você precisa estar logado para anunciar um veículo!");
-    window.location.href = "/login.php";
-}
-
 document.getElementById('logoutbtn').addEventListener('click', () => {
     localStorage.clear();
     window.location.href = "login.php";

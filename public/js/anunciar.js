@@ -1,9 +1,4 @@
-if (localStorage.getItem("userID") == null) {
-    alert("Voce precisa estar logado para anunciar um veiculo!");
-    window.location.href = "/login.php";
-}
-
-document.getElementById("anuncio-form").addEventListener("submit", async function(event) {
+document.getElementById("anuncio-form").addEventListener("submit", async function (event) {
     event.preventDefault();
 
     const data = {
