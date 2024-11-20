@@ -41,7 +41,16 @@ class UserController
                 error_log('depois do comando sql'."\r\n", 3, "error.log");
                 http_response_code(200);
                 echo json_encode(["message" => "Usuário criado com sucesso."]);
-            } catch (\Throwable $th) {
+            }catch (\PDOException $e) {
+                error_log($e . "\r\n", 3, "error.log");
+                if ($e->getCode() === '23000') {
+                    http_response_code(400);
+                    echo json_encode(["message" => "Erro: o email fornecido já está em uso."]);
+                } else {
+                    http_response_code(500);
+                    echo json_encode(["message" => "Erro ao criar o usuário. " . $e->getMessage()]);
+                }
+            }catch (\Throwable $th) {
                 http_response_code(500);
                 error_log($th."\r\n", 3, "error.log");
                 echo json_encode(["message" => "Erro ao criar o usuário. ".$th]);

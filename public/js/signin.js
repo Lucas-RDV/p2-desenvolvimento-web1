@@ -29,9 +29,11 @@ document.getElementById('cadastro-form').addEventListener('submit', async functi
     });
     content = await response.json();
     
-    if (response.status == 201) {
+    if (response.status == 200) {
       alert(content.message);
       window.location.href = '/login.php';
+    }else if (response.status == 400){
+      alert(content.message);
     } else {
       alert("erro! ".content.message)
     }
